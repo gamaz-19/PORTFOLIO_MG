@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MG.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!--NAV BAR-->
+        <nav>
+            <div class="nav-logo">
+                <h1>MG</h1>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">PROFILE</a></li>
+                    <li><a href="#projects">POKEDEX</a></li>
+                    <li><a href="#skills">STRATEGIES</a></li>
+                    <li><a href="#sskills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--MAIN-->
+    <main>
+        <!--HOME-->
+        <section id="home">
+            <div class="trainer-card">
+                <div class="trainer-card-header">
+                    <span class="trainer-id">TRAINER #0019</span>
+                    <span class="trainer-badge"> JUNIOR DEV</span>
+                </div>
+
+                <div class="trainer-main">
+                    <div class="trainer-photo">
+                        <div class="trainer-photo-placeholder" id="profilePhotoWrapper">
+                            <div>
+                                <img class="profileImg" src="media/perfilgit.jpg" alt="Maria Gomez" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trainer-info">
+                        <h1>MARIA ALEJANDRA<br>GOMEZ ARCHILA</h1>
+                        <p class="trainer-title">Junior Developer</p>
+                        <p class="trainer-motto"><span>&lt;</span>keep moving forward/<span>&gt;</span></p>
+                        <div class="trainer-types">
+                            <span class="type-badge type-fire">FRONTEND</span>
+                            <span class="type-badge type-water">BACKEND</span>
+                            <span class="type-badge type-electric">DATABASE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-stats">
+                    <div class="trainer-stat">
+                        <span class="trainer-stat-val">3+</span>
+                        <span class="trainer-stat-label">PRYECTS</span>
+                    </div>
+                    <div class="trainer-stat">
+                        <span class="trainer-stat-val">8+</span>
+                        <span class="trainer-stat-label">TECHNOLOGIES</span>
+                    </div>
+                    <div class="trainer-stat">
+                        <span class="trainer-stat-val"></span>
+                        <span class="trainer-stat-label">INT'L EXP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ABOUT-->
+        <section id="about">
+            <div class="section">
+                <div class="section-header reveal">
+                    <p class="section-label">// CARD #001</p>
+                    <h2 class="section-title">COACH'S PROFILE</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="pokedex-entry reveal">
+                    <div class="pokedex-sprite">
+                        <div class="trainer-photo-placeholder">
+                            <img class="trainerImg" src="media/pokeTrainer.png" alt="Maria Gomez" />
+                        </div>
+                        <div class="trainer-types">
+                            <span class="type-badge type-fire">FIRE</span>
+                            <span class="type-badge type-psychic">PSYCHIC</span>
+                        </div>
+                    </div>
+
+                    <div class="pokedex-text">
+                        <h3>MARIA-DEV </h3>
+                        <p>A junior developer passionate about creating useful, well-crafted web projects.
+                            Experience as a freelancer
+                            taking ideas from design through to implementation. Her international experience
+                            has strengthened her English skills and
+                            multicultural competence. She combines technical skills with approachable leadership and
+                            effective communication. Always
+                            eager to keep learning.</p>
+                        <div class="entry-stats">
+                            <div class="entry-stat">
+                                <span class="entry-stat-text"><strong>Languages:</strong> Spanish + English</span>
+                            </div>
+                            <div class="entry-stat">
+                                <span class="entry-stat-text"><strong>Type:</strong> Developer</span>
+                            </div>
+                            <div class="entry-stat">
+                                <span class="entry-stat-text"><strong>Zone:</strong> Colombia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pokedex-num">#001</div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECTS-->
+        <section id="projects">
+            <div class="section">
+                <div class="section-header reveal">
+                    <p class="section-label">// POKEDEX</p>
+                    <h2 class="section-title">TAINER'S POKEMONS</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="pokemon-cards-grid" id="pokemonCardsGrid">
+                    <div class="divCards">
+                        <div class="loading-spinner"></div>
+                        <p class="pCards">
+                            CHARGING POKEDEX...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SKILLS-->
+        <section id="skills">
+            <div class="section">
+                <div class="section-header reveal">
+                    <p class="section-label">// TYPES AND SKILLS</p>
+                    <h2 class="section-title">TYPE CHART</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="type-chart-grid" id="typeChartGrid">
+                    <!-- Script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!--SSKILLS-->
+        <section id="sskills">
+            <div class="section">
+                <div class="section-header reveal">
+                    <p class="section-label">// SPECIAL MOVEMENTS</p>
+                    <h2 class="section-title">SOFT SKILLS</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="moves-grid">
+                    <div class="move-card pink reveal">
+                        <div class="move-pp">PP <span>20/20</span></div>
+                        <h3 class="move-name">COMMUNICATION</h3>
+                        <ul class="move-items">
+                            <li class="move-item"><span class="move-dot"></span>Teamwork</li>
+                            <li class="move-item"><span class="move-dot"></span>Empathy</li>
+                            <li class="move-item"><span class="move-dot"></span>Effective communication</li>
+                        </ul>
+                    </div>
+
+                    <div class="move-card blue reveal">
+                        <div class="move-pp">PP <span>15/15</span></div>
+                        <h3 class="move-name">ORGANIZATION</h3>
+                        <ul class="move-items">
+                            <li class="move-item"><span class="move-dot"></span>Project Management</li>
+                            <li class="move-item"><span class="move-dot"></span>Liability</li>
+                            <li class="move-item"><span class="move-dot"></span>Adaptability</li>
+                        </ul>
+                    </div>
+
+                    <div class="move-card green reveal">
+                        <div class="move-pp">PP <span>∞/∞</span></div>
+                        <h3 class="move-name">PERSONAL DEVELOPMENT</h3>
+                        <ul class="move-items">
+                            <li class="move-item"><span class="move-dot"></span>Growth mindset</li>
+                            <li class="move-item"><span class="move-dot"></span>Troubleshooting</li>
+                            <li class="move-item"><span class="move-dot"></span>Proactivity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section id="contact">
+            <div class="section">
+                <div class="section-header reveal">
+                    <p class="section-label">// BATTLE</p>
+                    <h2 class="section-title">READY FOR BATTLE?</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-card reveal">
+                    <h3>¡HABLEMOS!</h3>
+                    <p>A new COACH wants to take on the challenge<br>Maria would like to join your team.</p>
+                    <div class="contact-buttons">
+                        <a href="mailto:maga1731@gmail.com" class="contact-btn email">EMAIL</a>
+                        <a href="https://www.linkedin.com/in/maria-alejandra-gomez-archila-873340373/" target="_blank"
+                            class="contact-btn linkedin">LINKEDIN</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-text">
+            © 2026 MARIA GOMEZ · PORTFOLIO · MADE WITH 💻 + ☕ = 💡
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
