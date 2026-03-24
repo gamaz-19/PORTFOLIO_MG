@@ -10,7 +10,7 @@
 
 ---
 
-**Portafolio personal con temática Pokémon desarrollado con HTML, CSS y JavaScript Vanilla. Presenta proyectos, habilidades y formas de contacto de forma interactiva y animada.**
+**Portafolio personal con temática Pokémon desarrollado con HTML, CSS y JavaScript. Presenta proyectos, habilidades y formas de contacto de forma interactiva y animada.**
 
 **2026 — HTML + CSS + JavaScript + PokéAPI**
 
