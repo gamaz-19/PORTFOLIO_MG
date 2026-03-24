@@ -121,6 +121,30 @@ nav {
     border-radius: 2px;
     transition: all 0.3s;
 }
+/*ES-IN*/
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lang-btn {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.45rem;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    padding: 5px 9px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+}
+
+.lang-btn:hover {
+    background: var(--yellow);
+    color: var(--black);
+}
 
 /* BACKGROUND PATTERN */
 
@@ -147,7 +171,7 @@ body::before {
 }
 
 .profileImg {
-    width: 15vw;
+    width: 200px; 
 
 }
 
@@ -302,8 +326,8 @@ nav {
     position: relative;
     z-index: 2;
     border-radius: 20px;
-    padding: 2.5rem 3rem;
-    max-width: 600px;
+    padding: 3.5rem 4rem;      
+    max-width: 100% ;         
     width: 100%;
     /*
     box-shadow:
@@ -365,8 +389,8 @@ nav {
 }
 
 .trainer-photo img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--yellow);
@@ -375,8 +399,8 @@ nav {
 }
 
 .trainer-photo-placeholder {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 3px solid var(--yellow);
     background: linear-gradient(135deg, var(--mid), var(--blue));
@@ -403,10 +427,11 @@ nav {
 
 .trainer-info h1 {
     font-family: 'Press Start 2P', monospace;
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--yellow);
     line-height: 1.8;
     margin-bottom: 0.5rem;
+    padding-top: 50px;
 }
 
 .trainer-title {
@@ -1240,7 +1265,7 @@ nav {
     }
 
     .trainer-card {
-        padding: 1.5rem 1.4rem;
+        padding: 2rem 1.5rem;
         border-radius: 16px;
     }
 
@@ -1256,7 +1281,7 @@ nav {
     }
 
     .trainer-info h1 {
-        font-size: 0.6rem;
+        font-size: 0.75rem;
     }
 
     .trainer-info .trainer-types {
@@ -1390,7 +1415,7 @@ nav {
     }
 
     .trainer-info h1 {
-        font-size: 0.55rem;
+        font-size: 0.65rem;
     }
 
     .trainer-title {
@@ -1471,12 +1496,12 @@ nav {
 @media (max-width: 480px) {
 
     .trainer-card {
-        padding: 1.2rem 1rem;
+        padding: 1.6rem 1.3rem;
         border-radius: 14px;
     }
 
     .trainer-info h1 {
-        font-size: 0.48rem;
+        font-size: 0.55rem;
     }
 
     .trainer-stats {

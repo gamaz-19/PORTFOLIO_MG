@@ -64,7 +64,7 @@ const PROJECTS = [
     {
         id: '#001',
         name: 'Kario Media',
-        desc: 'Project management dashboard for companies involved in public and private tenders.',
+        desc: 'Panel de gestión de proyectos para empresa de licitaciones públicas y privadas.',
         techs: ['HTML', 'CSS', 'Figma'],
         link: 'https://github.com/gamaz-19/PROYECTO_HTML_GOMEZMARIA_VARGASJHORGUEN_DOMINGUEZROBINSON',
         pokemon: 'bulbasaur',   // plant/web roots 
@@ -74,7 +74,7 @@ const PROJECTS = [
     {
         id: '#002',
         name: 'LogiTrack S.A.',
-        desc: 'A centralized Spring Boot backend system for managing inventory transfers between warehouses, recording automatic audits, and securing data with JWT authentication.',
+        desc: 'Sistema backend centralizado en Spring Boot para controlar movimientos de inventario entre bodegas, registrar auditorías automáticas y proteger la información con autenticación JWT.',
         techs: ['Node.js', 'MongoDB', 'Mermaid'],
         link: 'https://github.com/gamaz-19/LogiTrack_GomezMaria',
         pokemon: 'jigglypuff',  // music 
@@ -84,7 +84,7 @@ const PROJECTS = [
     {
         id: '#003',
         name: 'LMS CampusLand',
-        desc: 'An online educational platform for managing courses, instructors, students, and assessments.',
+        desc: 'Plataforma educativa web con gestión de cursos, docentes, estudiantes y evaluaciones.',
         techs: ['HTML5', 'CSS3', 'JavaScript', 'JSON Server'],
         link: 'https://github.com/Johanbadillo/Proyecto_GomezMaria_MonsalveJohan_MartinezStiven',
         pokemon: 'mewtwo',      // knowledge/power 
@@ -157,7 +157,7 @@ async function renderProjects() {
         <p class="pcard-desc">${proj.desc}</p>
         <div class="pcard-stats-mini">${realStats}</div>
         <div class="pcard-tech">${techHTML}</div>
-        <a href="${proj.link}" target="_blank" class="pcard-link">SEE REPO →</a>
+        <a href="${proj.link}" target="_blank" class="pcard-link">VER REPO →</a>
         </div>
     `;
 
@@ -192,14 +192,14 @@ const SKILL_TYPES = [
         pokemon: 'squirtle',
     },
     {
-        name: 'Data Bases',
+        name: 'Bases de Datos',
         type: 'grass',
         emoji: '🌿',
         skills: ['MongoDB', 'MySQL', 'PostgreSQL'],
         pokemon: 'oddish',
     },
     {
-        name: 'Tools',
+        name: 'Herramientas',
         type: 'electric',
         emoji: '⚡',
         skills: ['Git', 'GitHub', 'VS Code', 'Figma'],
